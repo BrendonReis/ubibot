@@ -418,7 +418,7 @@ const Dashboard = () => {
                   <HourglassEmptyIcon
                     style={{
                       fontSize: 100,
-                      color: "#47606e",
+                      color: "#FFFFFF",
                     }}
                   />
                 </Grid>
@@ -455,7 +455,7 @@ const Dashboard = () => {
                   <CheckCircleIcon
                     style={{
                       fontSize: 100,
-                      color: "#5852ab",
+                      color: "#FFFFFF",
                     }}
                   />
                 </Grid>
@@ -492,7 +492,7 @@ const Dashboard = () => {
                   <AddIcon
                     style={{
                       fontSize: 100,
-                      color: "#8c6b19",
+                      color: "#FFFFFF",
                     }}
                   />
                 </Grid>
@@ -529,7 +529,7 @@ const Dashboard = () => {
                   <AccessAlarmIcon
                     style={{
                       fontSize: 100,
-                      color: "#7a3f26",
+                      color: "#FFFFFF",
                     }}
                   />
                 </Grid>
@@ -566,7 +566,7 @@ const Dashboard = () => {
                   <TimerIcon
                     style={{
                       fontSize: 100,
-                      color: "#8a2c40",
+                      color: "#FFFFFF",
                     }}
                   />
                 </Grid>
