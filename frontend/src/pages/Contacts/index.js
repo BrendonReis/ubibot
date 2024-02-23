@@ -217,27 +217,7 @@ const Contacts = () => {
     }
   };
   
-  //testando aquiii
-  
-  
-  const handleImportContacts = async () => {
-    try {
-      const formData = new FormData();
-      formData.append("file", fileUploadRef.current.files[0]);
-      await api.request({
-        url: `contact-lists/${contactListId}/upload`,
-        method: "POST",
-        data: formData,
-      });
-    } catch (err) {
-      toastError(err);
-    }
-  };
-  
-  
-  
-  
-  
+ 
 
   const loadMore = () => {
     setPageNumber((prevState) => prevState + 1);
