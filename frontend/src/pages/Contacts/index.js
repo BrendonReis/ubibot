@@ -216,6 +216,28 @@ const Contacts = () => {
       toastError(err);
     }
   };
+  
+  //testando aquiii
+  
+  
+  const handleImportContacts = async () => {
+    try {
+      const formData = new FormData();
+      formData.append("file", fileUploadRef.current.files[0]);
+      await api.request({
+        url: `contact-lists/${contactListId}/upload`,
+        method: "POST",
+        data: formData,
+      });
+    } catch (err) {
+      toastError(err);
+    }
+  };
+  
+  
+  
+  
+  
 
   const loadMore = () => {
     setPageNumber((prevState) => prevState + 1);
@@ -295,7 +317,7 @@ const Contacts = () => {
             {i18n.t("contacts.buttons.add")}
           </Button>
 
-         <CSVLink style={{ textDecoration:'none'}} separator=";" filename={'whaticket.csv'} data={contacts.map((contact) => ({ name: contact.name, number: contact.number, email: contact.email }))}>
+         <CSVLink style={{ textDecoration:'none'}} separator=";" filename={'contatos.csv'} data={contacts.map((contact) => ({ name: contact.name, number: contact.number, email: contact.email }))}>
           <Button	variant="contained" color="primary"> 
           EXPORTAR CONTATOS 
           </Button>
