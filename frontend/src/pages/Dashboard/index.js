@@ -91,7 +91,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#0094bb",
+    backgroundColor: "primary",
     color: "#eee",
   },
   card2: {
