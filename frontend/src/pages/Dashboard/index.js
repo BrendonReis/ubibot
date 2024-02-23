@@ -381,7 +381,7 @@ const Dashboard = () => {
                   <CallIcon
                     style={{
                       fontSize: 100,
-                      color: "#0b708c",
+                      color: "#FFFFFF",
                     }}
                   />
                 </Grid>
