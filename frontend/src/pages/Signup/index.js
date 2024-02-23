@@ -35,7 +35,7 @@ const Copyright = () => {
 		<Typography variant="body2" color="textSecondary" align="center">
 			{"Copyright © "}
 			<Link color="inherit" href="#">
-				PLW
+				AtendeChat
 			</Link>{" "}
 		   {new Date().getFullYear()}
 			{"."}
@@ -90,7 +90,7 @@ const SignUp = () => {
 		Object.assign(values, { recurrence: "MENSAL" });
 		Object.assign(values, { dueDate: dueDate });
 		Object.assign(values, { status: "t" });
-		Object.assign(values, { campaignsEnabled: true });
+		Object.assign(values, { campaignsEnabled: false });
 		try {
 			await openApi.post("/companies/cadastro", values);
 			toast.success(i18n.t("signup.toasts.success"));
