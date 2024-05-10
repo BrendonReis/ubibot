@@ -54,11 +54,11 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.fancyBackground,
     '& .MuiButton-outlinedPrimary': {
       color: theme.mode === 'light' ? '#FFF' : '#FFF',
-	  backgroundColor: theme.mode === 'light' ? '#6D30EF' : '#1c1c1c',
+	  backgroundColor: theme.mode === 'light' ? '#0D6BA0' : '#1c1c1c',
       //border: theme.mode === 'light' ? '1px solid rgba(0 124 102)' : '1px solid rgba(255, 255, 255, 0.5)',
     },
     '& .MuiTab-textColorPrimary.Mui-selected': {
-      color: theme.mode === 'light' ? '#6D30EF' : '#FFF',
+      color: theme.mode === 'light' ? '#0D6BA0' : '#FFF',
     }
   },
   avatar: {
@@ -67,7 +67,8 @@ const useStyles = makeStyles((theme) => ({
   toolbar: {
     paddingRight: 24, // keep right padding when drawer closed
     color: theme.palette.dark.main,
-    background: theme.palette.barraSuperior,
+    //background: theme.palette.barraSuperior,
+    background: "#0D6BA0",
   },
   toolbarIcon: {
     display: "flex",

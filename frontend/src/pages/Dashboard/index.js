@@ -91,7 +91,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#6D30EF",
+    backgroundColor: "#0D6BA0",
     color: "#eee",
   },
   card2: {
@@ -100,7 +100,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#6D30EF",
+    backgroundColor: "#0D6BA0",
     color: "#eee",
   },
   card3: {
@@ -109,7 +109,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#6D30EF",
+    backgroundColor: "#0D6BA0",
     color: "#eee",
   },
   card4: {
@@ -118,7 +118,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#6D30EF",
+    backgroundColor: "#0D6BA0",
     color: "#eee",
   },
   card5: {
@@ -127,7 +127,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#6D30EF",
+    backgroundColor: "#0D6BA0",
     color: "#eee",
   },
   card6: {
@@ -136,7 +136,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#6D30EF",
+    backgroundColor: "#0D6BA0",
     color: "#eee",
   },
   card7: {
@@ -145,7 +145,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#6D30EF",
+    backgroundColor: "#0D6BA0",
     color: "#eee",
   },
   card8: {
@@ -154,7 +154,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#6D30EF",
+    backgroundColor: "#0D6BA0",
     color: "#eee",
   },
   card9: {
@@ -163,7 +163,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#6D30EF",
+    backgroundColor: "#0D6BA0",
     color: "#eee",
   },
 }));
@@ -356,7 +356,7 @@ const Dashboard = () => {
           <Grid item xs={12} sm={6} md={4}>
             <Paper
               className={classes.card1}
-              style={{ overflow: "hidden" }}
+              style={{ overflow: "hidden", backgroundColor: '#cf2458' }}
               elevation={4}
             >
               <Grid container spacing={3}>
@@ -393,7 +393,7 @@ const Dashboard = () => {
           <Grid item xs={12} sm={6} md={4}>
             <Paper
               className={classes.card2}
-              style={{ overflow: "hidden" }}
+              style={{ overflow: "hidden", backgroundColor: '#2dbe33' }}
               elevation={6}
             >
               <Grid container spacing={3}>
@@ -430,7 +430,7 @@ const Dashboard = () => {
           <Grid item xs={12} sm={6} md={4}>
             <Paper
               className={classes.card3}
-              style={{ overflow: "hidden" }}
+              style={{ overflow: "hidden", backgroundColor: '#4d6ddc' }}
               elevation={6}
             >
               <Grid container spacing={3}>
@@ -467,7 +467,7 @@ const Dashboard = () => {
           <Grid item xs={12} sm={6} md={4}>
             <Paper
               className={classes.card4}
-              style={{ overflow: "hidden" }}
+              style={{ overflow: "hidden", backgroundColor: '#d9d928' }}
               elevation={6}
             >
               <Grid container spacing={3}>
@@ -504,7 +504,7 @@ const Dashboard = () => {
           <Grid item xs={12} sm={6} md={4}>
             <Paper
               className={classes.card8}
-              style={{ overflow: "hidden" }}
+              style={{ overflow: "hidden", backgroundColor: '#2eadbe' }}
               elevation={6}
             >
               <Grid container spacing={3}>
@@ -541,7 +541,7 @@ const Dashboard = () => {
           <Grid item xs={12} sm={6} md={4}>
             <Paper
               className={classes.card9}
-              style={{ overflow: "hidden" }}
+              style={{ overflow: "hidden", backgroundColor: '#a92ebd' }}
               elevation={6}
             >
               <Grid container spacing={3}>
